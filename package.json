@@ -1,0 +1,35 @@
+{
+  "name": "murashin_portfolio",
+  "private": true,
+  "version": "0.1.0",
+  "dependencies": {
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "4.3.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
+    "@jeremyhamm/vue-slider": "^0.2.0",
+    "core-js": "^3.6.4",
+    "vue-burger-menu": "^2.0.5",
+    "vue-particles": "^1.0.9",
+    "vue-smoothscroll": "^0.2.0",
+    "vue-typer": "^1.2.0",
+    "vue": "^2.6.14",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.2",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "normalize.css": "^8.0.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
