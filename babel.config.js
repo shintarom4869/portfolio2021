@@ -1,7 +1,7 @@
 module.exports = function(api) {
   var validEnv = ['development', 'test', 'production']
   var currentEnv = api.env()
-  var DevelopmentEnv = api.env('development')
+  var isDevelopmentEnv = api.env('development')
   var isProductionEnv = api.env('production')
   var isTestEnv = api.env('test')
 
@@ -32,7 +32,7 @@ module.exports = function(api) {
           useBuiltIns: 'entry',
           corejs: 3,
           modules: false,
-          exclude: ['transform-typeofis-symbol']
+          exclude: []
         }
       ]
     ].filter(Boolean),
@@ -42,7 +42,7 @@ module.exports = function(api) {
       isTestEnv && 'babel-plugin-dynamic-import-node',
       '@babel/plugin-transform-destructuring',
       [
-        '@babel/plugin-proposal-private-property-in-object',
+        '@babel/plugin-proposal-class-properties',
         {
           loose: true
         }
