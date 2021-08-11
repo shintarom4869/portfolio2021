@@ -97,29 +97,6 @@
 
 
 <style>
-.items{
-    text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
-    margin-bottom: 50px;
-}
-
-.item{
-    margin :10px 30px;
-    display: inline-block;
-    width: 100px;
-}
-
-.item-comment{
-    width: 100px;
-}
-
-.item-image{
-    height: 50px;
-    width: 50px;
-}
-
-
 
 
 </style>
