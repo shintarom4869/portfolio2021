@@ -25,16 +25,3 @@ export default {
 }
 </script>
 
-<style>
-
-/*.nav-button{
-  padding:10px;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-right:10px;
-  margin-left: 10px;
-  outline: none;
-  color: whitesmoke;
-}*/
-
-</style>

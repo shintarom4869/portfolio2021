@@ -15,7 +15,3 @@
     </div>
 </template>
 
-<style>
-
-</style>
-

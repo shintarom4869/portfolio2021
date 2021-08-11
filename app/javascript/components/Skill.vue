@@ -96,9 +96,5 @@
 </template>
 
 
-<style>
-
-
-</style>
 
 

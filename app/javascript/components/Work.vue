@@ -27,9 +27,3 @@
     </div>
 </template>
 
-
-
-
-<style>
-
-</style>
