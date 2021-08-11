@@ -73,39 +73,5 @@
 
 
 <style scoped>
-.about{
-    display:inline-flex;
-    padding-left: 5%;
-    padding-right: 5%;
-    
-}
 
-.s-table{
-    margin: 0px auto;
-    text-align: left;
-}
-
-.resent{
-  margin-top: 50px;
-}
-
-.me{
-    margin:0 50px;
-    font-weight: 200;
-}
-
-h2,.text{
-  font-weight: 300;
-}
-
-
-@media screen and (max-width: 768px){
-	.about {
-		flex-direction: column;
-	}
-
-	.me {
-    margin: 0 auto;
-	}
-}
 </style>
